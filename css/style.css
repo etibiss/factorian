@@ -1,0 +1,154 @@
+*,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.ccm-toolbar-visible .menu {
+    margin-bottom: 48px;
+}
+
+.menu_logo {
+    padding: 13px 0;
+}
+
+.menu_logo h1 {
+    border: 3px solid #494949;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    color: #494949;
+    text-transform: uppercase;
+}
+
+ul.menuList {
+    list-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.menuList a {
+    padding: 35px 20px;
+    color: #222;
+    display: inline-block;
+}
+
+.menuList a:hover {
+    background-color: #F4F4F4;
+    text-decoration: none;
+}
+
+.block_content {
+    padding: 100px 0;
+}
+
+.slide_item {
+    background: #fff no-repeat center center cover;
+}
+
+.slide_item.diapo1 {
+    background-image: url(img/slide-bg-2.jpg);
+}
+
+.slide_item .slide_text {
+    padding: 100px 0;
+}
+
+.slide_item .slide_text h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.slide_item .slide_text p {
+    color: #FFF;
+    font-size: 24px;
+}
+
+.factorian_btn {
+    background-color: #f2d248;
+    border-radius: 5px;
+    color: #222;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.5s all ease;
+}
+
+.factorian_btn:hover {
+    text-decoration: none;
+    background-color: #ceae22;
+    transition: 0.5s all ease;
+    color: #fff;
+}
+
+.read_more,
+.read_more i {
+    font-weight: 700;
+    color: #222;
+}
+
+.read_more:hover,
+.read_more:hover i {
+    color: #222;
+    text-decoration: none;
+    text-shadow: 2px;
+}
+
+.block_cta {
+    background-color: #222;
+    padding: 40px 0;
+}
+
+.block_cta h2 {
+    color: #fff;
+}
+
+.block_work h3 {
+    text-align: center;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    background-color: #222;
+}
+
+.footer_top,
+.footer_top a {
+    color: #cacaca;
+}
+
+.footer_logo {
+    background-color: #fff;
+    color: #222;
+    display: inline-block;
+    margin: 0 0 20px;
+    font-size: 16px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+.footer_title {
+    color: #fff;
+}
+
+.footer_col {
+    padding: 50px 0;
+}
+
+.footer_col ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer_copyright {
+    background: #1d1d1d none repeat scroll 0 0;
+    color: #fff;
+    padding: 15px 0;
+}
